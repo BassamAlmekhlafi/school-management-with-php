@@ -1,0 +1,37 @@
+CREATE TABLE `admin_accounts` (
+  `id` int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `firstname` varchar(50) NOT NULL,
+  `lastname` varchar(50) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `picture` varchar(100) NOT NULL,
+  `usertype` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+...............................................
+CREATE TABLE `info_student` (
+  `id` int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+ `id_school` varchar(50) NOT NULL,
+  `teacher_number` int(11) NOT NULL,
+  `firstname` varchar(50) NOT NULL,
+  `lastname` varchar(50) NOT NULL,
+  `phone` int(10) NOT NULL,
+  `picture` varchar(50) NOT NULL,
+  `first_mark` double NOT NULL,
+  `second_mark` double NOT NULL,
+  `third_mark` double NOT NULL,
+  `fourth_mark` double NOT NULL,
+  `final_mark` double NOT NULL,
+  `class` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+........................................
+
+
+CREATE TABLE `users` (
+  `id` int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `create_datetime` datetime NOT NULL,
+  `id_school` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
