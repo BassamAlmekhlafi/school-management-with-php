@@ -4,7 +4,7 @@
 ![main](https://github.com/user-attachments/assets/1642dd63-27f2-4b97-9f41-d1c623cc611a)
 
 -2
-[login_admin](https://github.com/user-attachments/assets/cfa9a7e6-b155-4f9a-894c-f03ca4f0a2fe)
+![login_admin](https://github.com/user-attachments/assets/cfa9a7e6-b155-4f9a-894c-f03ca4f0a2fe)
 
 -3
 
